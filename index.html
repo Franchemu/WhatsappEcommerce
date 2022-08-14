@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windshield Shop</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!--customcss-->
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-----Navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <img src="./images/logo.png" alt="store logo" style="width: 150px;"/>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fa-solid fa-house"></i>
+                </span>
+                <div class="cart-items">0</div>
+
+            </div>
+        </div>
+    </nav>
+    <!-----Navbar-->
+
+    <!--Hero-->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                Windshield shop
+            </h1>
+            <button class="banner-btn">Buy now</button>
+        </div>
+    </header>
+    <!--Hero-->
+
+    <!--Products-->
+    <section class="products">
+        <div class="section-title">
+            <h2>Products</h2>
+        </div>
+        <div class="products-center"></div>
+
+    </section>
+    <!--Products-->
+
+    <!--carrito de compras-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa-solid fa-window-close"></i>
+            </span>
+            <h2>Your cart</h2>
+            <div class="cart-content">
+                <!---cart item-->
+
+                <!------DONT DELETE----
+                <div class="cart-item">
+                  
+                </div>
+                --->
+
+                <!---end of cart item-->
+
+            </div>
+
+            <div class="cart-footer">
+                <h3>Total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-btn banner-btn" style="margin-bottom: 2rem;">Delete cart</button>
+            </div>
+
+        </div>
+    </div>
+    <!--end of cart-->
+
+    <!-----Contentful api-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+
+    <!----App js---->
+    <script src="app.js"></script>
+</body>
+</html>
